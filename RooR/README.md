@@ -1,71 +1,118 @@
-# Eurocybersecurite AI Cybersecurity Application
+# Eurocybersecurite AI Cybersecurity Application 🤖🛡️
 
-This is an AI-powered cybersecurity application developed by Eurocybersecurite.
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![HuggingFace](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/)
+[![GitHub stars](https://img.shields.io/github/stars/votre-utilisateur/Eurocybersecurite-AI.svg)](https://github.com/votre-utilisateur/Eurocybersecurite-AI/stargazers)
 
-## Description
+---
 
-This application uses a lightweight AI model to detect and counter persistent AI attacks that evade traditional controls.
+## 🌐 Description
 
-## Installation
+**Eurocybersecurite AI Cybersecurity Application** est une application de cybersécurité basée sur l’intelligence artificielle.
+Elle utilise un modèle léger pré-entraîné de **Hugging Face** pour :
 
-1.  Create a virtual environment:
-    ```bash
-    python3 -m venv venv
-    ```
-2.  Activate the virtual environment:
-    ```bash
-    source venv/bin/activate
-    ```
-3.  Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+* Détecter des menaces cachées dans des données textuelles
+* Identifier des attaques persistantes qui échappent aux contrôles traditionnels
+* Fournir une analyse rapide et automatisée des risques
 
-## Functioning and Objective
+Objectif : offrir une **protection proactive** et accessible aux équipes sécurité.
 
-This application uses a pre-trained Hugging Face model to analyze text data and determine if it contains a cybersecurity threat. The objective is to provide a quick and easy way to assess the potential risk of a given piece of text.
+---
 
-## Usage
+## 🔧 Fonctionnalités principales
 
-1.  Run the application:
-    ```bash
-    python main.py
-    ```
-2.  Open your web browser and go to `http://localhost:5577`
-3.  Enter a piece of text in the "Enter data to analyze" field and click the "Run Analysis" button.
-4.  The application will display the analysis output, including the threat level and the model type.
+* 📊 Analyse automatique de textes
+* 🤖 Détection par modèle IA (Hugging Face)
+* ⚡ Application légère et rapide
+* 🌍 Interface web simple d’utilisation (Flask)
+* 🛡️ Détection d’attaques persistantes basées sur l’IA
+* 📑 Rapport instantané avec niveau de menace
 
-## PyPI Deployment
+---
 
-1.  Install `twine`:
-    ```bash
-    pip install twine
-    ```
-2.  Build the distribution packages:
-    ```bash
-    python setup.py sdist bdist_wheel
-    ```
-3.  Upload the packages to PyPI:
-    ```bash
-    twine upload dist/*
-    ```
+## ⚙️ Installation
 
-## GitHub Deployment
+### 🔧 Prérequis
 
-1.  Create a new repository on GitHub.
-2.  Push the application code to the repository:
-    ```bash
-    git init
-    git add .
-    git commit -m "Initial commit"
-    git remote add origin <repository_url>
-    git push -u origin main
-    ```
+* Python **3.11+**
+* Pip & virtualenv
 
-## Contributing
+### Étapes
 
-Contributions are welcome! Please submit a pull request.
+```bash
+# 1. Créer un environnement virtuel
+python3 -m venv venv
 
-## License
+# 2. Activer l’environnement
+source venv/bin/activate   # Linux/macOS
+venv\Scripts\activate      # Windows
 
-[License]
+# 3. Installer les dépendances
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 Utilisation
+
+1. Lancer l’application :
+
+```bash
+python main.py
+```
+
+2. Ouvrir le navigateur : [http://localhost:5577](http://localhost:5577)
+3. Entrer un texte à analyser dans le champ **"Enter data to analyze"**
+4. Cliquer sur **Run Analysis**
+5. Lire le rapport affiché : niveau de menace + type de modèle IA utilisé
+
+---
+
+## 🗺️ Feuille de route (Roadmap)
+
+* [x] Analyse de textes par IA Hugging Face
+* [x] Interface web Flask
+* [ ] Support multi-langues
+* [ ] Intégration d’alertes par email/Slack
+* [ ] Amélioration des modèles avec fine-tuning
+* [ ] Export avancé des rapports (PDF/CSV)
+
+---
+
+## 📦 Déploiement
+
+### 📤 PyPI
+
+```bash
+pip install twine
+python setup.py sdist bdist_wheel
+twine upload dist/*
+```
+
+### 🌐 GitHub
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <repository_url>
+git push -u origin main
+```
+
+---
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues !
+Merci d’ouvrir une **issue** ou une **Pull Request** pour proposer vos améliorations.
+
+👤 **Auteur principal :** Abdessemed Mohamed Redha
+📧 **Contact :** [abdessemed.redha@eurocybersecurite.fr](mailto:abdessemed.mohamed@eurocybersecurite.fr)
+
+---
+
+## 📜 Licence
+
+Ce projet est sous licence **MIT**.
+Voir [LICENSE](LICENSE) pour plus de détails.
