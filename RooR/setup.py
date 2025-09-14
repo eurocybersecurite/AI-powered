@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='Eurocybersecurite-AI-Cybersecurity',
-    version='0.2.0',
+    version='0.2.1',
     description='AI-powered cybersecurity application by Eurocybersecurite',
     long_description = long_description,
     long_description_content_type="text/markdown",
