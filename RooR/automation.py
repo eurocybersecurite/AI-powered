@@ -9,8 +9,7 @@ class Automation:
         print("Running automated analysis...")
         result = self.ai_model.analyze(data)
         model_type = self.ai_model.__class__.__name__
-        report = f"Analysis Report:\n" \
-                 f"Input Data: {data}\n" \
+        report = f"Input Data: {data}\n" \
                  f"Model Type: {model_type}\n" \
-                 f"Analysis Result: {result}"
+                 f"Result: {result}"
         return report
