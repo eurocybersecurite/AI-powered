@@ -6,5 +6,6 @@ class AIModelHF:
         self.model = pipeline("sentiment-analysis", model=model_name)
 
     def analyze(self, data):
-        result = self.model(data)[0]
+        truncated_data = data[:512]
+        result = self.model(truncated_data)[0]
         return f"AI Model (Hugging Face): {result['label']} (score: {result['score']:.4f})"

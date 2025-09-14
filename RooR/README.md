@@ -88,7 +88,13 @@ python main.py
 
 ---
 
-## 📦 Déploiement
+## � Nouveautés
+
+* Ajout d'un système de notification basique affichant l'historique des notifications sur la page d'accueil.
+
+---
+
+## �📦 Déploiement
 
 ### 📤 PyPI
 
