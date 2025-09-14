@@ -1,4 +1,5 @@
 README.md
+pyproject.toml
 setup.py
 Eurocybersecurite_AI_Cybersecurity.egg-info/PKG-INFO
 Eurocybersecurite_AI_Cybersecurity.egg-info/SOURCES.txt

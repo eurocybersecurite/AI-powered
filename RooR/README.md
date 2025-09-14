@@ -1,9 +1,17 @@
+<<<<<<< HEAD
+# AI-powered
+This application uses a lightweight AI model to detect and counter persistent AI attacks that evade traditional controls.
+=======
 # Eurocybersecurite AI Cybersecurity Application 🤖🛡️
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![HuggingFace](https://img.shields.io/badge/Model-HuggingFace-yellow.svg)](https://huggingface.co/)
-[![GitHub stars](https://img.shields.io/github/stars/votre-utilisateur/Eurocybersecurite-AI.svg)](https://github.com/votre-utilisateur/Eurocybersecurite-AI/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/eurocybersecurite/AI-powered.svg)](https://github.com/eurocybersecurite/AI-powered/stargazers)
+
+## 🔗 Dépôt GitHub
+
+Vous pouvez trouver le code source de cette application sur GitHub : [https://github.com/eurocybersecurite/AI-powered](https://github.com/eurocybersecurite/AI-powered)
 
 ---
 
@@ -108,7 +116,7 @@ Les contributions sont les bienvenues !
 Merci d’ouvrir une **issue** ou une **Pull Request** pour proposer vos améliorations.
 
 👤 **Auteur principal :** Abdessemed Mohamed Redha
-📧 **Contact :** [abdessemed.redha@eurocybersecurite.fr](mailto:abdessemed.mohamed@eurocybersecurite.fr)
+📧 **Contact :** [mohamed.abdessemed@eurocybersecurite.fr](mailto:abdessemed.mohamed@eurocybersecurite.fr)
 
 ---
 
@@ -116,3 +124,4 @@ Merci d’ouvrir une **issue** ou une **Pull Request** pour proposer vos amélio
 
 Ce projet est sous licence **MIT**.
 Voir [LICENSE](LICENSE) pour plus de détails.
+>>>>>>> 89fe30f (Initial commit de l'application Eurocybersecurite AI Cybersecurity)
