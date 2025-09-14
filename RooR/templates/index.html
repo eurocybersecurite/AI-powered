@@ -1,0 +1,20 @@
+<!-- RooR/templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eurocybersecurite AI Cybersecurity</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Eurocybersecurite AI Cybersecurity</h1>
+    <form method="POST">
+        <label for="data">Enter data to analyze (e.g., a piece of text that might contain a cybersecurity threat):</label>
+        <input type="text" id="data" name="data" placeholder="Example: This email contains a suspicious link.">
+        <button type="submit">Run Analysis</button>
+    </form>
+    {% if result %}
+        <h2>Analysis Output:</h2>
+        <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>

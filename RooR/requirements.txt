@@ -1,0 +1,5 @@
+# requirements.txt
+flask
+scikit-learn
+transformers
+torch
