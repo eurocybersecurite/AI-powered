@@ -11,6 +11,8 @@ setup(
     long_description = long_description,
     long_description_content_type="text/markdown",
     author='Eurocybersecurite',
+    author_email='mohamed.abdessemed@eurocybersecurite.fr',
+    license='MIT',
     packages=find_packages(where='RooR'),
     include_package_data=True,
     install_requires=[
