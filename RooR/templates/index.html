@@ -21,7 +21,13 @@
                 <p>{{ result }}</p>
             </div>
         {% endif %}
+
+        <h2>Notification History:</h2>
+        <ul>
+            {% for notification in notifications %}
+                <li>{{ notification }}</li>
+            {% endfor %}
+        </ul>
     </div>
 </body>
-</html>
 </html>

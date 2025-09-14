@@ -15,9 +15,13 @@ def index():
     if request.method == "POST":
         data = request.form["data"]
         result = automator.run_analysis(data)
-        return render_template("index.html", result=result)
-    return render_template("index.html", result=None)
+        return render_template("index.html", result=result, notifications=automator.notification_history)
+    return render_template("index.html", result=None, notifications=[])
 
+@app.route("/monitor")
+def monitor():
+    automator.monitor_data()
+    return "Monitoring started!"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5577))
