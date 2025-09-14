@@ -1,7 +1,3 @@
-
-# AI-powered
-This application uses a lightweight AI model to detect and counter persistent AI attacks that evade traditional controls.
-=======
 # Eurocybersecurite AI Cybersecurity Application 🤖🛡️
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
@@ -88,13 +84,14 @@ python main.py
 
 ---
 
-## � Nouveautés
-
+## Nouveautés et Améliorations (Version 0.2.0)
 * Ajout d'un système de notification basique affichant l'historique des notifications sur la page d'accueil.
+* Limitation de la taille du texte d'entrée à 512 caractères.
+* Ajout des métadonnées (Licence, Auteur, Étiquettes, Nécessite)
 
 ---
 
-## �📦 Déploiement
+## 📦 Déploiement
 
 ### 📤 PyPI
 
@@ -122,7 +119,7 @@ Les contributions sont les bienvenues !
 Merci d’ouvrir une **issue** ou une **Pull Request** pour proposer vos améliorations.
 
 👤 **Auteur principal :** Abdessemed Mohamed Redha
-📧 **Contact :** [mohamed.abdessemed@eurocybersecurite.fr](mailto:abdessemed.mohamed@eurocybersecurite.fr)
+ **Contact :** [mohamed.abdessemed@eurocybersecurite.fr](mailto:abdessemed.mohamed@eurocybersecurite.fr)
 
 ---
 

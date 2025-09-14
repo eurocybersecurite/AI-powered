@@ -3,6 +3,8 @@ Name: Eurocybersecurite-AI-Cybersecurity
 Version: 0.2.0
 Summary: AI-powered cybersecurity application by Eurocybersecurite
 Author: Eurocybersecurite
+Author-email: mohamed.abdessemed@eurocybersecurite.fr
+License: MIT
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -13,9 +15,11 @@ Requires-Dist: transformers
 Requires-Dist: torch
 Requires-Dist: scikit-learn
 Dynamic: author
+Dynamic: author-email
 Dynamic: classifier
 Dynamic: description
 Dynamic: description-content-type
+Dynamic: license
 Dynamic: license-file
 Dynamic: requires-dist
 Dynamic: summary
