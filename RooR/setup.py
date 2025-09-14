@@ -32,11 +32,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     keywords='cybersecurity, audit, remediation, flask, python',
-    install_requires=[
-        "flask",
-        "transformers",
-        "torch",
-        "scikit-learn"
-    ],
     python_requires='>=3.11',
 )
