@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # AI-powered
 This application uses a lightweight AI model to detect and counter persistent AI attacks that evade traditional controls.
 =======
@@ -124,4 +124,3 @@ Merci d’ouvrir une **issue** ou une **Pull Request** pour proposer vos amélio
 
 Ce projet est sous licence **MIT**.
 Voir [LICENSE](LICENSE) pour plus de détails.
->>>>>>> 89fe30f (Initial commit de l'application Eurocybersecurite AI Cybersecurity)

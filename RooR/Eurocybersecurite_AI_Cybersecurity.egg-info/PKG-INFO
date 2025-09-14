@@ -1,12 +1,13 @@
 Metadata-Version: 2.4
 Name: Eurocybersecurite-AI-Cybersecurity
-Version: 0.1.3
+Version: 0.1.4
 Summary: AI-powered cybersecurity application by Eurocybersecurite
 Author: Eurocybersecurite
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
+License-File: LICENSE
 Requires-Dist: flask
 Requires-Dist: transformers
 Requires-Dist: torch
@@ -15,9 +16,14 @@ Dynamic: author
 Dynamic: classifier
 Dynamic: description
 Dynamic: description-content-type
+Dynamic: license-file
 Dynamic: requires-dist
 Dynamic: summary
 
+
+# AI-powered
+This application uses a lightweight AI model to detect and counter persistent AI attacks that evade traditional controls.
+=======
 # Eurocybersecurite AI Cybersecurity Application 🤖🛡️
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
@@ -132,7 +138,7 @@ Les contributions sont les bienvenues !
 Merci d’ouvrir une **issue** ou une **Pull Request** pour proposer vos améliorations.
 
 👤 **Auteur principal :** Abdessemed Mohamed Redha
-📧 **Contact :** [abdessemed.redha@eurocybersecurite.fr](mailto:abdessemed.mohamed@eurocybersecurite.fr)
+📧 **Contact :** [mohamed.abdessemed@eurocybersecurite.fr](mailto:abdessemed.mohamed@eurocybersecurite.fr)
 
 ---
 
